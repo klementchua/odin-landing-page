@@ -79,3 +79,120 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.section2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 50px 15vw 125px 15vw;
+    gap: 50px;
+}
+
+.black-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card-container {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    gap: 10px;
+    color: gray;
+}
+
+.image-placeholder2 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 125px 22.5vw;
+}
+
+.quote-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-person {
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 15vw;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    flex: 1;
+    padding: 50px 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-text {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cta-text p {
+    margin: 0px;
+}
+
+#cta-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#cta-text {
+    color: #e5e7eb;
+}
+
+.button-invert {
+    flex-shrink: 0;
+    width: 125px;
+    padding: 7px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 7px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 40px;
+}
